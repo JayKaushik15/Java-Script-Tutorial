@@ -28,25 +28,25 @@
 // }
 
 
-function clock() {
-    let ele = document.getElementById("myclock")
-    let date = new Date()
+// function clock() {
+//     let ele = document.getElementById("myclock")
+//     let date = new Date()
 
-    let h = date.getHours()
-    let min = date.getMinutes()
-    let sec = date.getSeconds()
+//     let h = date.getHours()
+//     let min = date.getMinutes()
+//     let sec = date.getSeconds()
     
-    let hour = h%12;
-    if(hour == 0) {
-        hour = 12;
-    }
+//     let hour = h%12;
+//     if(hour == 0) {
+//         hour = 12;
+//     }
 
-    let time = h + ":" + min + ":" + sec
+//     let time = h + ":" + min + ":" + sec
 
 
-    setTimeout(() => {
-        clock()
-    }, 1000);
-    ele.innerText = time 
-}
-clock()
+//     setTimeout(() => {
+//         clock()
+//     }, 1000);
+//     ele.innerText = time 
+// }
+// clock()
